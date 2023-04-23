@@ -1,5 +1,4 @@
 FROM arm32v6/busybox
-LABEL maintainer="The Prometheus Authors <prometheus-developers@googlegroups.com>"
 
 COPY prometheus        /bin/prometheus
 COPY promtool          /bin/promtool
